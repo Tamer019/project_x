@@ -11,4 +11,7 @@ for row in rows:
     print(row)
     
 cursor.close()
-db_connection.close()aga
+db_connection.close()
+
+
+hallo
