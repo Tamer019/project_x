@@ -12,6 +12,3 @@ for row in rows:
     
 cursor.close()
 db_connection.close()
-
-
-hallo
