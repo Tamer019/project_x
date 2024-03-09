@@ -1,0 +1,1 @@
+# SMTP für das Senden der Mails an die Clients
