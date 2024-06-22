@@ -1,0 +1,53 @@
+Transaktionsbericht
+====================
+
+Transaktions-ID: 2854
+Vorname: anonym
+Nachname: user_80
+E-Mail: 
+Zeit SuspendedEV: 2023-12-21 10:31:56
+Zeit Available: 2023-12-21 12:02:25
+Differenz: 0 days 01:30:29
+Differenz in Minuten: 90.5
+Verstoﬂ vorliegend?: Verstoﬂ!
+--------------------
+Transaktions-ID: 2855
+Vorname: anonym
+Nachname: user_111
+E-Mail: 
+Zeit SuspendedEV: 2023-12-21 08:37:22
+Zeit Available: 2023-12-21 11:14:25
+Differenz: 0 days 02:37:03
+Differenz in Minuten: 157.1
+Verstoﬂ vorliegend?: Verstoﬂ!
+--------------------
+Transaktions-ID: 2858
+Vorname: anonym
+Nachname: user_115
+E-Mail: 
+Zeit SuspendedEV: 2023-12-21 10:33:47
+Zeit Available: 2023-12-21 11:08:09
+Differenz: 0 days 00:34:22
+Differenz in Minuten: 34.4
+Verstoﬂ vorliegend?: Verstoﬂ!
+--------------------
+Transaktions-ID: 2859
+Vorname: anonym
+Nachname: user_65
+E-Mail: 
+Zeit SuspendedEV: 2023-12-21 14:55:44
+Zeit Available: 2023-12-21 15:39:43
+Differenz: 0 days 00:43:59
+Differenz in Minuten: 44.0
+Verstoﬂ vorliegend?: Verstoﬂ!
+--------------------
+Transaktions-ID: 2867
+Vorname: anonym
+Nachname: user_86
+E-Mail: 
+Zeit SuspendedEV: 2023-12-22 09:25:55
+Zeit Available: 2023-12-22 12:46:28
+Differenz: 0 days 03:20:33
+Differenz in Minuten: 200.6
+Verstoﬂ vorliegend?: Verstoﬂ!
+--------------------

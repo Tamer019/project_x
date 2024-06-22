@@ -43,7 +43,7 @@ for transaction_id in range(transaction_start, transaction_end):
     zero_values = df[df['value'] == 0]
 
     if not zero_values.empty:
-        # Finden Sie den ersten Wert von value = 0, bei dem der vorherige Wert nicht 0 ist
+        # Finden des ersten Werts von value = 0, bei dem der vorherige Wert nicht 0 ist
         previous_values = df['value'].shift(1)
         condition = (df['value'] == 0) & (previous_values != 0) & (previous_values.notna())
         valid_zero_values = df[condition]
@@ -123,7 +123,7 @@ output_filename = f'C:/Users/Tamer/Desktop/project_x/project_x/FA/output_files/t
 
 # Gesamtergebnis in eine Excel-Datei schreiben
 with pd.ExcelWriter(output_filename, engine='xlsxwriter') as writer:
-    # Schreibe all_results_df in das Arbeitsblatt "Transactions"
+    # all_results_df in das Arbeitsblatt "Transactions" schreiben
     all_results_df.to_excel(writer, index=False, sheet_name='Transactions')
     autofit_columns(writer, 'Transactions', all_results_df)
 

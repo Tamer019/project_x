@@ -33,6 +33,8 @@ GROUP BY t.id_tag, year, month
 HAVING transaction_counts >= 5
 ORDER BY last_name;
 """
+#1000Wh nicht 5000 hoch als variable!!
+
 # SQL-Abfrage ausführen und Ergebnis in einen DataFrame laden
 df = pd.read_sql_query(sql_query, db_conn)
 
@@ -57,5 +59,7 @@ send_email(
     smtp_server="smtp.gmail.com",
     smtp_port=587,
     login="abdelrahmanta00@gmail.com",
-    password="qogz mjeo mrfn iwky",  # Verwenden Sie hier das generierte App-Passwort
+    password="qogz mjeo mrfn iwky",  # generierte App-Passwort
     attachment_path='C:/Users/Tamer/Desktop/project_x/project_x/FA/output_files/transaction_count_monthly.xlsx')
+
+#relativen Pfad nicht absolut und optional danach datei löschen -> variable oben an code

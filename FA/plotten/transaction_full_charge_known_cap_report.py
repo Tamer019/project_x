@@ -27,7 +27,7 @@ ORDER BY u.user_pk ASC;
 # SQL-Abfrage ausführen und Ergebnis in einen DataFrame laden
 df = pd.read_sql_query(sql_query, db_conn)
 
-# Optional: Verbindung schließen, wenn sie nicht mehr benötigt wird
+# Datenbankverbindung schließen
 db_conn.close()
 
 

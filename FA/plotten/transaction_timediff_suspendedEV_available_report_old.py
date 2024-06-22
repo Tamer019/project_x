@@ -34,7 +34,7 @@ ORDER BY value_timestamp ASC;
 df = pd.read_sql_query(sql_query, db_conn)
 
 
-# Konvertieren Sie die status_timestamp-Spalte in datetime
+# Konvertieren status_timestamp-Spalte in datetime
 df['status_timestamp'] = pd.to_datetime(df['status_timestamp'])
 
 # Berechnen der Differenz
@@ -58,5 +58,5 @@ results_df = pd.DataFrame([{
 print(results_df)
 
 # Speichern der Ergebnisse in eine Excel-Datei
-vendor_id = 'EVTEC'  # Stellen Sie sicher, dass der vendor_id korrekt definiert ist
+vendor_id = 'EVTEC' 
 results_df.to_excel(f'C:/Users/Tamer/Desktop/project_x/project_x/FA/output_files/timediff_{vendor_id}_SuspendedEV_bis_Available.xlsx', index=False)
